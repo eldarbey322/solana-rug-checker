@@ -1,0 +1,14 @@
+# Secrets: API keys and bot token. NEVER publish.
+.env
+.env.*
+!.env.example
+
+# Service files
+.cache.json
+.cache.json.tmp
+reports/
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.log
